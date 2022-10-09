@@ -1,0 +1,153 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>LURAWI CONSULTORA</title>
+<style type="text/css">
+body {
+	background-image: url(imagenes/edificio,-vidrio,-nubes,-cielo-170608.jpg);
+	background-repeat: repeat-x;
+	color: #363B23;
+	background-color: #2B3B5D;
+		-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+body,td,th {
+	color: #FFF;
+	font-weight: bold;
+}
+</style>
+<script src="Scripts/swfobject_modified.js" type="text/javascript"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+</head>
+
+<body>
+<table width="800" height="286" border="1" bordercolor="#0066FF" align="center" background="imagenes/blue_gradiente_azul_celeste.jpg">
+  <tr>
+    <th height="125" scope="col"><img src="imagenes/encabco.png" width="750" height="200" /></th>
+  </tr>
+  <tr>
+    <th height="74" scope="col"><object id="FlashID" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="600" height="50">
+      <param name="movie" value="imagenes/menuaz.swf" />
+      <param name="quality" value="high" />
+      <param name="wmode" value="opaque" />
+      <param name="swfversion" value="6.0.65.0" />
+      <!-- Esta etiqueta param indica a los usuarios de Flash Player 6.0 r65 o posterior que descarguen la versión más reciente de Flash Player. Elimínela si no desea que los usuarios vean el mensaje. -->
+      <param name="expressinstall" value="Scripts/expressInstall.swf" />
+      <!-- La siguiente etiqueta object es para navegadores distintos de IE. Ocúltela a IE mediante IECC. -->
+      <!--[if !IE]>-->
+      <object type="application/x-shockwave-flash" data="imagenes/menuaz.swf" width="600" height="50">
+        <!--<![endif]-->
+        <param name="quality" value="high" />
+        <param name="wmode" value="opaque" />
+        <param name="swfversion" value="6.0.65.0" />
+        <param name="expressinstall" value="Scripts/expressInstall.swf" />
+        <!-- El navegador muestra el siguiente contenido alternativo para usuarios con Flash Player 6.0 o versiones anteriores. -->
+        <div>
+					<!--
+          <h4>El contenido de esta página requiere una versión más reciente de Adobe Flash Player.</h4>
+          <p><a href="http://www.adobe.com/go/getflashplayer"><img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Obtener Adobe Flash Player" width="112" height="33" /></a></p>
+				-->
+
+						<button onclick="playPause()">Reproducir/Pausar</button>
+						<button onclick="reload()">Recargar</button>
+						<button onclick="makeLarge()">Maximizar</button>
+						<button onclick="makeSmall()">Minimizar</button>
+						<button onclick="makeNormal()">Normal</button>
+						<br><br>
+						<video id="videoPlayer" width="500">
+						  <source src="video/lurawi-prueba.mp4" type="video/mp4">
+						  Tu navegador no soporta el vídeo de HTML5
+						</video>
+        </div>
+        <!--[if !IE]>-->
+      </object>
+      <!--<![endif]-->
+    </object></th>
+  </tr>
+</table>
+<table width="800" border="1" bordercolor="#0066FF" align="center" background="imagenes/blue_gradiente_azul_celeste.jpg">
+  <tr>
+    <th width="656" scope="col"><p>&nbsp;</p>
+      <p>
+        <object id="FlashID2" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="600" height="250">
+          <param name="movie" value="video/lurawi-3.swf" />
+          <param name="quality" value="high" />
+          <param name="wmode" value="transparent" />
+          <param name="swfversion" value="6.0.65.0" />
+          <!-- Esta etiqueta param indica a los usuarios de Flash Player 6.0 r65 o posterior que descarguen la versión más reciente de Flash Player. Elimínela si no desea que los usuarios vean el mensaje. -->
+          <param name="expressinstall" value="Scripts/expressInstall.swf" />
+          <!-- La siguiente etiqueta object es para navegadores distintos de IE. Ocúltela a IE mediante IECC. -->
+          <!--[if !IE]>-->
+          <object type="application/x-shockwave-flash" data="video/lurawi-3.swf" width="600" height="250">
+            <!--<![endif]-->
+            <param name="quality" value="high" />
+            <param name="wmode" value="transparent" />
+            <param name="swfversion" value="6.0.65.0" />
+            <param name="expressinstall" value="Scripts/expressInstall.swf" />
+            <!-- El navegador muestra el siguiente contenido alternativo para usuarios con Flash Player 6.0 o versiones anteriores. -->
+            <div>
+              <h4>El contenido de esta página requiere una versión más reciente de Adobe Flash Player.</h4>
+              <p><a href="http://www.adobe.com/go/getflashplayer"><img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Obtener Adobe Flash Player" width="112" height="33" /></a></p>
+            </div>
+            <!--[if !IE]>-->
+          </object>
+          <!--<![endif]-->
+        </object>
+      </p>
+      <h2>Lurawi es una empresa que nace desde el espíritu de trabajo</h2>
+      <h2> y vocación de servicio      de sus integrantes, pensando en el beneficio </h2>
+      <h2>de una sociedad toda, que necesita la      incorporación </h2>
+      <h2>y desarrollo de nuevos emprendimientos </h2>
+      <h2>y mejor funcionamiento de      las empresas ya existentes, </h2>
+      <h2>sirviendo plenamente para el crecimiento de esta querida      Provincia,</h2>
+      <h2> Santiago del Estero, su Región NOA y claro esta para nuestra Nación, </h2>
+      <h2>Patria      Argentina.      LURAWI, del Aymara lengua originaria, </h2>
+      <h2>cuya traducción al castellano es LUGAR DE      TRABAJO; </h2>
+      <h2>La idea de su logotipo nace de la fortaleza reflejada </h2>
+      <h2>en un árbol de tronco      robusto y fuerte, </h2>
+      <h2>con sus raíces firmes en la tierra </h2>
+      <h2>que por su celeste y blanco se refiere      a lo nuestro, </h2>
+      <h2>Argentina. </h2>
+      <h2>Podemos apreciar además que es un árbol coposo </h2>
+<h2>en distintos      tonos de verde que muestran </h2>
+      <h2>la esperanza, el futuro y el progreso. </h2>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p></th>
+  </tr>
+</table>
+<h3 align="center" style="color:#000">Desarrollo Sitio <a href="http://www.ingenierabianchi.com.ar" target="_blank" style="color:#000">www.ingenierabianchi.com.ar</a></h3>
+
+<script type="text/javascript">
+swfobject.registerObject("FlashID2");
+swfobject.registerObject("FlashID");
+</script>
+
+<script>
+var video = document.getElementById("videoPlayer");
+function playPause() {
+    if (video.paused)
+        video.play();
+    else
+        video.pause();
+}
+function reload() {
+   video.load();
+}
+function makeLarge() {
+    video.width = 1000;
+}
+function makeSmall() {
+    video.width = 250;
+}
+function makeNormal() {
+    video.width = 500;
+}
+</script>
+
+</body>
+</html>
